@@ -39,7 +39,7 @@ def main():
 		tab = tab.replace(".txt\n","")
 		list_of_tables_f.append(tab)
         list_table_with_more_attribute = ['MEMBERLN','LST_GRP','CALEND16']
-        handler = open('AllSql.cmd','r')
+        handler = open('dd.cmd','r')
         query = handler.readline()
         query_final = ''
         while query:
